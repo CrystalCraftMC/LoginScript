@@ -1,0 +1,17 @@
+name: LoginScript
+main: com.justinwflory.loginscript.LoginScript
+version: 0.1
+description: Because jflory7 is lazy.
+author: jflory7
+website: http://justinwflory.com
+
+commands:
+    loginscript:
+        description: Reload the LoginScript configuration.
+        usage: /loginscript reload
+        permission: loginscript.reload
+
+permissions:
+    loginscript.reload:
+        description: Reload the LoginScript configuration.
+        default: op
