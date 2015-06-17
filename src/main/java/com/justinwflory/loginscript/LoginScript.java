@@ -42,9 +42,9 @@ public final class LoginScript extends JavaPlugin implements Listener {
         Player p = e.getPlayer();
         String pName = p.getName();
         if (getConfig().getString("scripted-players").contains(pName)) {
-            p.performCommand("vanish effect lightning");
-            p.performCommand("vanish effect explode");
-            p.performCommand("vanish effect bats");
+            p.performCommand("v e lightning");
+            p.performCommand("v e explode");
+            p.performCommand("v e bats");
             p.performCommand("minecraft:gamemode 1");
         }
     }
